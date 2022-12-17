@@ -22,8 +22,8 @@ package org.generation.italy.demo.pojo;
  	private String descrizione;
 
  	public Pizza() { }
- 	public Pizza(String name, String descrizione) {
- 		setName(nome);
+ 	public Pizza(String nome, String descrizione) {
+ 		setNome(nome);
  		setDescrizione(descrizione);
  	}
 
@@ -39,7 +39,7 @@ package org.generation.italy.demo.pojo;
  		return nome;
  	}
 
- 	public void setName(String nome) {
+ 	public void setNome(String nome) {
  		this.nome = nome;
  	}
 
